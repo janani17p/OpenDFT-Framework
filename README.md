@@ -31,6 +31,12 @@ To address reliability challenges during test, two enhancements are applied.
 
 These features ensure that test execution does not cause unrealistic power spikes or IR drop issues.  
 
+## Block Diagram and Framework Overview
+
+![OpenDFT Framework and Techniques](docs/images/opendft_composite.png)
+
+*Figure 1: Left — OpenDFT framework applied to Microwatt, integrating scan chains, MBIST, and power aware test control. Right — Scan chain topology and example March C MBIST sequence.*
+
 ### Evaluation Flow
 The modified Microwatt RTL will be validated using open source tools:  
 - **Simulation**: Verilator and Icarus Verilog for functional and fault campaigns  
@@ -60,12 +66,6 @@ This project establishes the **OpenDFT Framework**, a reproducible methodology f
 Future extensions may include hierarchical DFT for multicore architectures, AI driven test generation for functional coverage closure, and DFT integration for analog and mixed signal subsystems.  
 
 ---
-
-## Figure
-
-![OpenDFT Framework and Techniques](docs/images/opendft_composite.png)  
-
-*Figure 1: Left — OpenDFT framework applied to Microwatt, integrating scan chains, MBIST, and power aware test control. Right — Scan chain topology and example March C MBIST sequence.*  
 
 ---
 
