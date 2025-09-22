@@ -35,7 +35,7 @@ These features ensure that test execution does not cause unrealistic power spike
 
 ![Block Diagram](Screenshot%202025-09-22%20163756.png)
 
-*Figure 1: Left — OpenDFT framework applied to Microwatt, integrating scan chains, MBIST, and power aware test control. Right — Scan chain topology and example March C MBIST sequence.*
+Figure 1: Overview of the OpenDFT Framework. The diagram illustrates how Design for Testability features are integrated into the Microwatt CPU, including scan chain insertion for pipeline registers, a memory BIST wrapper for fault detection, and power aware test control for reliable operation. Together, these components demonstrate a reproducible methodology for making open source CPUs silicon ready.
 
 ### Evaluation Flow
 The modified Microwatt RTL will be validated using open source tools:  
