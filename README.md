@@ -33,7 +33,7 @@ These features ensure that test execution does not cause unrealistic power spike
 
 ## Block Diagram and Framework Overview
 
-![OpenDFT Framework and Techniques](docs/images/opendft_composite.png)
+![Block Diagram](Screenshot%202025-09-22%20163756.png)
 
 *Figure 1: Left — OpenDFT framework applied to Microwatt, integrating scan chains, MBIST, and power aware test control. Right — Scan chain topology and example March C MBIST sequence.*
 
